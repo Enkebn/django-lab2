@@ -131,3 +131,4 @@ INSTALLED_APPS = [
     'blogApp',
 ]
 
+TEMPLATES[0]['DIRS'] = [BASE_DIR / 'templates']

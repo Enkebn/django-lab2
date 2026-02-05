@@ -8,3 +8,9 @@ urlpatterns = [
     path('poll/', include('pollApp.urls')),
     path('blog/', include('blogApp.urls')),
 ]
+from django.urls import path
+from .views import home
+
+urlpatterns = [
+    path('', home),
+]
